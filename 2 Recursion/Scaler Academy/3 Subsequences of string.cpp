@@ -51,5 +51,9 @@ void subsequence(string str, string output_so_far/*osf*/){
                               
 }
 int main() {
-    
+    string str;
+    cin>>str;
+
+    subsequences(str," ");
+    return 0;
 }
